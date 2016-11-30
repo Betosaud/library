@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>lending library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>the library</h1>
+    
+    <div class="box">
+        <p>search for a book by author's name</p>
+        <input id="authorSearch" >
+        <button type="button" id="autSearch">Author Search</button>
+    </div>
+    
+    <div class="box">
+        <p>search for a book by</p>
+        <input id="radioAuthor" name="radio" type="radio" value="radioAuthor" checked> Author
+        <input id="radioTitle" name="radio" type="radio" value="radioTitle"> Title
+        <input id="radioGenre" name="radio" type="radio" value="radioGenre"> Genre
+        <input id="stringSearch" >
+        <button type="button" id="radioSearchBt"> Search</button>
+        <p id="whosChecked"></p>
+    </div>
+    
+    <div class="box">
+        <p><strong>Your search results:</strong></p>
+        <ol id='result'></ol>
+    </div>
+
+  </main>
+  <footer>
+    <p>wmdd 4820 lending library 2016</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
